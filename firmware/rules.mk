@@ -12,7 +12,6 @@ MOUSEKEY_ENABLE = yes       # Mouse keys
 EXTRAKEY_ENABLE = yes       # Audio control and System control
 CONSOLE_ENABLE = yes        # Console for debug
 COMMAND_ENABLE = yes        # Commands for debug and configuration
-COMBO_ENABLE = yes
 # Do not enable SLEEP_LED_ENABLE. it uses the same timer as BACKLIGHT_ENABLE
 SLEEP_LED_ENABLE = no       # Breathing sleep LED during USB suspend
 # if this doesn't work, see here: https://github.com/tmk/tmk_keyboard/wiki/FAQ#nkro-doesnt-work
@@ -26,3 +25,4 @@ AUDIO_ENABLE = no           # Audio output
 # https://noroadsleft.github.io/kbf_qmk_converter/
 
 VIA_ENABLE = yes
+# COMBO_ENABLE = yes

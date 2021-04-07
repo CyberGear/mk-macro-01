@@ -19,11 +19,11 @@
 #include "config_common.h"
 
 /* USB Device descriptor parameter */
-#define VENDOR_ID       0xFEED
-#define PRODUCT_ID      0x0001
+#define VENDOR_ID       0x1209
+#define PRODUCT_ID      0x69A1
 #define DEVICE_VER      0x0001
 #define MANUFACTURER    CyberGear
-#define PRODUCT         Macros25 (mk-macro-01)
+#define PRODUCT         Macro25 (mk-macro-01)
 
 #define MATRIX_ROWS 2
 #define MATRIX_COLS 5
@@ -33,4 +33,6 @@
 
 #define DIODE_DIRECTION COL2ROW
 
-#define TAP_CODE_DELAY 10
+// #define TAP_CODE_DELAY 10
+
+// #define COMBO_COUNT 10
